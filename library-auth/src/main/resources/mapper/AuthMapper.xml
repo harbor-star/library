@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.AuthMapper">
+    <insert id="submitLibInfo" parameterType="com.example.entity.AuthInfoTable" >
+        INSERT INTO LIB_AUTH(AUTH_ID, AUTH_NAME, AUTH_PASSWORD, AUTH_STATUS, AUTH_TYPE, LAST_LOGIN) VALUE (
+          #{libTable.auth_id}, #{libTable.auth_name}, #{libTable.auth_password}, #{libTable.auth_status},
+          #{libTable.auth_type}, #{libTable.last_login}
+        );
+    </insert>
+
+    <update id="updateStatus">
+        UPDATE LIB_AUTH SET AUTH_ID = #{libTable.auth_id}, AUTH_NAME = #{libTable.auth_name}, AUTH_PASSWORD = #{libTable.auth_password}, AUTH_STATUS = #{libTable.auth_status}, AUTH_TYPE = #{libTable.auth_type}, LAST_LOGIN = #{libTable.last_login} WHERE AUTH_NAME = #{libTable.auth_name};
+    </update>
+
+    <select id="getAuthInfoById" parameterType="java.lang.Long" resultType="com.example.entity.AuthInfoTable">
+        SELECT AUTH_ID, AUTH_NAME, AUTH_PASSWORD, AUTH_STATUS, AUTH_TYPE, LAST_LOGIN FROM LIB_AUTH WHERE AUTH_ID = #{id};
+    </select>
+
+    <delete id="deleteAuthInfo" parameterType="java.lang.Long">
+        DELETE FROM LIB_INFO WHERE AUTH_ID = #{id};
+    </delete>
+</mapper>

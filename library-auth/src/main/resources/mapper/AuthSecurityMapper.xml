@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.AuthSecurityMapper">
+    <resultMap id="userMap" type="com.example.pojo.User">
+        <result property="id" column="ID"/>
+        <result property="userName" column="USERNAME"/>
+        <result property="password" column="PASSWORD"/>
+    </resultMap>
+    <select id="getUserInfoByUsername" parameterType="java.lang.String" resultType="com.example.pojo.User">
+        SELECT ID, USERNAME, PASSWORD FROM USER_SECURITY WHERE USERNAME = #{username};
+    </select>
+
+    <insert id="insertUserInfo" parameterType="com.example.pojo.User">
+        INSERT INTO USER_SECURITY(ID, USERNAME, PASSWORD) VALUES (#{user.id}, #{user.userName}, #{user.password});
+    </insert>
+
+    <select id="getRoleInfoByUsername" parameterType="java.lang.String" resultType="com.example.pojo.Role">
+        SELECT ID, NAME, DESCRIPTION FROM ROLE_SECURITY WHERE NAME = #{username};
+    </select>
+</mapper>

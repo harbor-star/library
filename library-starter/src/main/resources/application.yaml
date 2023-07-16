@@ -1,0 +1,63 @@
+#localhost:
+#  address: 172.16.18.254
+localhost:
+  address: localhost
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          url: jdbc:mysql://${localhost.address}:3306/activiti-library?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&useSSL=false
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          name: druid_master
+
+        activiti_source:
+          url: jdbc:mysql://${localhost.address}:3306/activiti?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          name: druid_slave
+
+        library-database:
+          url: jdbc:mysql://${localhost.address}:3306/library-database?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          name: druid_slave
+#        resource_oracle:
+#          url: jdbc:oracle:thin:@${localhost.address}:1521:oracle
+#          username: library
+#          password: 1234567
+#          driver-class-name: oracle.jdbc.driver.OracleDriver
+#          name: oracle_slave
+
+#          hikari:
+#            pool-name: Retail_HikariCP_2
+#            minimum-idle: 5 #最小空闲连接数量
+#            maximum-pool-size: 100
+#            auto-commit: true
+#            connection-test-query: SELECT 1
+#            connection-timeout: 3000
+#            validation-timeout: 2000
+#            idle-timeout: 60000
+#            max-lifetime: 1800000
+#            connection-init-sql: "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;"
+#            data-source-properties:
+#              serverTimezone: GMT+8
+#              useTimezone: true
+#              zeroDateTimeBehavior: round
+#              characterEncoding: utf8
+#              cachePrepStmts: true
+#              prepStmtCacheSize: 128
+#              prepStmtCacheSqlLimit: 1024
+#              useSSL: false
+#              useUnicode: true
+      strict: false
+  activiti:
+    history-level: full
+    db-history-used: true
+    database-schema-update: true
+    deployment-mode: never-fail

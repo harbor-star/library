@@ -1,0 +1,916 @@
+[2023-06-23 17:08:31.237] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 21580 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:08:31.256] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:08:36.122] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ddde0280] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.472] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$768bcaba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.481] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.489] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6f91fbda' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.490] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$31f98a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.510] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$c0b58582] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.513] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.517] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.593] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.610] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$476c7351] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:36.640] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:08:37.558] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 17:08:37.619] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 17:08:37.620] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 17:08:38.015] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 17:08:38.016] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6514 ms
+[2023-06-23 17:08:38.093] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$64d22644)method: (registerFirstFilter)执行耗时: 11ms
+[2023-06-23 17:08:38.108] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$64d22644)method: (registerSecondFilter)执行耗时: 1ms
+[2023-06-23 17:08:38.410] [main] [INFO ] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3ce0132f-7c39-4306-a59e-17cbbe80cd64
+
+[2023-06-23 17:08:38.661] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 17:08:40.706] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 17:08:40.711] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 17:08:40.770] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 17:08:40.772] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 17:08:40.772] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 17:08:40.772] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 17:08:40.845] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 17:08:45.701] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 17:08:47.061] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 17:08:47.061] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$541bc046 (priority:10000)
+[2023-06-23 17:08:47.061] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$541bc046 (priority:10000)
+[2023-06-23 17:08:48.270] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$541bc046 (priority:10000)
+[2023-06-23 17:08:49.134] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 17:08:49.136] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 17:08:49.137] [Thread-36] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:08:49.137] [Thread-38] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 17:08:49.137] [Thread-37] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:08:51.293] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 17:08:51.293] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 17:08:51.483] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$8348259c)method: (mybatisPlusInterceptor)执行耗时: 16ms
+[2023-06-23 17:08:56.003] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 17:08:57.581] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 17:08:57.590] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 27.925 seconds (JVM running for 32.347)
+[2023-06-23 17:09:00.976] [RMI TCP Connection(3)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 17:09:00.976] [RMI TCP Connection(3)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 17:09:00.995] [RMI TCP Connection(3)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+[2023-06-23 17:10:41.388] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:10:41.388] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:10:41.388] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:11:05.371] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 18948 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:11:05.376] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:11:08.634] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e16082e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.860] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$36c3d068] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.867] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.874] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5a592c70' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.877] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$c3579e56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.893] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$80ed8b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.895] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.897] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.958] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.971] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7a478ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:08.994] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:11:09.622] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 17:11:09.664] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 17:11:09.664] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 17:11:09.966] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 17:11:09.966] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4479 ms
+[2023-06-23 17:11:10.035] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$250a2bf2)method: (registerFirstFilter)执行耗时: 10ms
+[2023-06-23 17:11:10.046] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$250a2bf2)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 17:11:10.301] [main] [INFO ] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7cf58feb-74b8-4ae7-b1e0-b02ca544782f
+
+[2023-06-23 17:11:10.484] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 17:11:10.729] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 17:11:10.735] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 17:11:10.741] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 17:11:10.742] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 17:11:10.743] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 17:11:10.743] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 17:11:10.820] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 17:11:15.887] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 17:11:17.041] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 17:11:17.042] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$1453c5f4 (priority:10000)
+[2023-06-23 17:11:17.042] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$1453c5f4 (priority:10000)
+[2023-06-23 17:11:17.970] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$1453c5f4 (priority:10000)
+[2023-06-23 17:11:18.071] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 17:11:18.073] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 17:11:18.074] [Thread-23] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:11:18.074] [Thread-25] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 17:11:18.074] [Thread-24] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:11:18.849] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 17:11:18.849] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 17:11:19.015] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$43802b4a)method: (mybatisPlusInterceptor)执行耗时: 14ms
+[2023-06-23 17:11:24.521] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 17:11:26.461] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 17:11:26.469] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 22.306 seconds (JVM running for 25.138)
+[2023-06-23 17:11:28.690] [RMI TCP Connection(5)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 17:11:28.691] [RMI TCP Connection(5)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 17:11:28.721] [RMI TCP Connection(5)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+[2023-06-23 17:11:40.001] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:11:40.001] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:11:40.002] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:11:40.129] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:11:40.130] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:11:40.130] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:11:41.512] [https-jsse-nio-0.0.0.0-8083-exec-10] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:11:41.513] [https-jsse-nio-0.0.0.0-8083-exec-10] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:11:41.514] [https-jsse-nio-0.0.0.0-8083-exec-10] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:11:41.539] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:11:41.540] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:11:41.540] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:12:37.872] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 11836 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:12:37.877] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:12:41.253] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c365fe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.507] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$4e4281a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.515] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.521] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@350323a0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.522] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$9177f608] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.539] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$4f0de2e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.542] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.544] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.608] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.624] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d5c4d0b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:41.648] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:12:42.246] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 17:12:42.285] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 17:12:42.285] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 17:12:42.551] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 17:12:42.551] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4552 ms
+[2023-06-23 17:12:42.610] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$f32a83a4)method: (registerFirstFilter)执行耗时: 9ms
+[2023-06-23 17:12:42.620] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$f32a83a4)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 17:12:42.874] [main] [INFO ] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0a852cf5-ed8b-4dc6-9336-70c9641b49ae
+
+[2023-06-23 17:12:43.033] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 17:12:43.273] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 17:12:43.278] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 17:12:43.284] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 17:12:43.285] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 17:12:43.285] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 17:12:43.285] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 17:12:43.352] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 17:12:47.627] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 17:12:48.749] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 17:12:48.749] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$e2741da6 (priority:10000)
+[2023-06-23 17:12:48.749] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$e2741da6 (priority:10000)
+[2023-06-23 17:12:49.735] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$e2741da6 (priority:10000)
+[2023-06-23 17:12:49.831] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 17:12:49.833] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 17:12:49.834] [Thread-26] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:12:49.834] [Thread-28] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 17:12:49.834] [Thread-27] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:12:51.007] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 17:12:51.007] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 17:12:51.212] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$11a082fc)method: (mybatisPlusInterceptor)执行耗时: 19ms
+[2023-06-23 17:12:54.918] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 17:12:56.301] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 17:12:56.307] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 19.688 seconds (JVM running for 22.374)
+[2023-06-23 17:12:58.889] [RMI TCP Connection(3)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 17:12:58.889] [RMI TCP Connection(3)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 17:12:58.908] [RMI TCP Connection(3)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+[2023-06-23 17:14:09.774] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 13592 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:14:09.783] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:16:44.293] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 17564 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:16:44.305] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:17:16.654] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 22524 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:17:16.663] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:17:22.182] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc9072c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.655] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$753e3afa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.668] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.673] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@36d582cb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.677] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$1d208e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.700] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$bf67f5c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.704] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.706] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.789] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.811] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$461ee391] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:22.846] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:17:25.002] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 17:17:25.054] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 17:17:25.055] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 17:17:25.450] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 17:17:25.450] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8502 ms
+[2023-06-23 17:17:25.545] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$63849684)method: (registerFirstFilter)执行耗时: 17ms
+[2023-06-23 17:17:25.555] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$63849684)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 17:17:26.018] [main] [INFO ] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ee5f411c-e2ac-439a-9bb0-88c44778d193
+
+[2023-06-23 17:17:26.325] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 17:17:27.133] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 17:17:27.138] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 17:17:27.144] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 17:17:27.146] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 17:17:27.146] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 17:17:27.146] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 17:17:27.243] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 17:17:30.655] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 17:17:31.807] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 17:17:31.808] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$52ce3086 (priority:10000)
+[2023-06-23 17:17:31.808] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$52ce3086 (priority:10000)
+[2023-06-23 17:17:33.290] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$52ce3086 (priority:10000)
+[2023-06-23 17:17:33.435] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 17:17:33.437] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 17:17:33.438] [Thread-2] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:17:33.438] [Thread-3] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:17:33.439] [Thread-4] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 17:17:34.440] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 17:17:34.441] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 17:17:34.674] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$81fa95dc)method: (mybatisPlusInterceptor)执行耗时: 34ms
+[2023-06-23 17:17:40.002] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 17:17:41.966] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 17:17:41.974] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 27.426 seconds (JVM running for 28.611)
+[2023-06-23 17:17:56.626] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 17:17:56.627] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 17:17:56.650] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+[2023-06-23 17:17:56.679] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:56.680] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:56.680] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:56.751] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.controller.LoginController)method: (test)执行耗时: 4ms
+[2023-06-23 17:17:56.991] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:56.992] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:56.992] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:58.391] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:58.393] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:58.393] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:58.396] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.controller.LoginController)method: (test)执行耗时: 0ms
+[2023-06-23 17:17:58.412] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:58.413] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:58.413] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:58.997] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:58.997] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:58.998] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:59.002] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.controller.LoginController)method: (test)执行耗时: 0ms
+[2023-06-23 17:17:59.018] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:59.019] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:59.019] [https-jsse-nio-0.0.0.0-8083-exec-9] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:59.406] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:59.407] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:59.407] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:17:59.409] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.controller.LoginController)method: (test)执行耗时: 0ms
+[2023-06-23 17:17:59.424] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:17:59.424] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:17:59.424] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:19:34.141] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 18212 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:19:34.152] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:19:40.091] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f2841b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.865] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$27d609ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.882] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.893] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4fb57fb3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.899] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$b469d7dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.926] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$71ffc4b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.931] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:40.935] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:41.045] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:41.077] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f8b6b286] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:41.120] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:19:43.279] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 17:19:43.334] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 17:19:43.335] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 17:19:43.706] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 17:19:43.706] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9306 ms
+[2023-06-23 17:19:43.788] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$161c6579)method: (registerFirstFilter)执行耗时: 16ms
+[2023-06-23 17:19:43.797] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$161c6579)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 17:19:44.349] [main] [INFO ] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 77bd898a-566c-4ed0-bbd9-d96b968f5ceb
+
+[2023-06-23 17:19:44.692] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 17:19:45.095] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 17:19:45.102] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 17:19:45.110] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 17:19:45.112] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 17:19:45.112] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 17:19:45.112] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 17:19:45.235] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 17:19:48.620] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 17:19:49.678] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 17:19:49.678] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$565ff7b (priority:10000)
+[2023-06-23 17:19:49.679] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$565ff7b (priority:10000)
+[2023-06-23 17:19:51.137] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$565ff7b (priority:10000)
+[2023-06-23 17:19:51.270] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 17:19:51.273] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 17:19:51.274] [Thread-2] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:19:51.275] [Thread-3] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:19:51.275] [Thread-4] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 17:19:52.213] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 17:19:52.214] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 17:19:52.465] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$349264d1)method: (mybatisPlusInterceptor)执行耗时: 32ms
+[2023-06-23 17:19:59.332] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fe9adfb, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d9bccfe, org.springframework.security.web.header.HeaderWriterFilter@56820446, org.springframework.security.web.csrf.CsrfFilter@e2d9923, org.springframework.security.web.authentication.logout.LogoutFilter@af007d6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e1c5e0d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@351d726c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@f8fe81e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5c81ddab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36c45149, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@289cf7db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ad0cd43, org.springframework.security.web.session.SessionManagementFilter@1b82f62a, org.springframework.security.web.access.ExceptionTranslationFilter@634d3439, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56b48163]
+[2023-06-23 17:19:59.380] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 17:20:01.215] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 17:20:01.220] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 29.193 seconds (JVM running for 30.526)
+[2023-06-23 17:20:10.167] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 17:20:10.167] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 17:20:10.184] [https-jsse-nio-0.0.0.0-8083-exec-4] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+[2023-06-23 17:27:43.164] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 12656 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 17:27:43.175] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 17:27:49.134] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a07e0462] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.894] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$392bcc9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.908] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.915] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@242ff747' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.920] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$c5bf9a8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.946] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$83558764] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.951] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:49.954] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:50.057] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:50.092] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a0c7533] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:50.144] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 17:27:52.541] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 17:27:52.599] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 17:27:52.599] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 17:27:52.986] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 17:27:52.987] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9583 ms
+[2023-06-23 17:27:53.069] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$27722826)method: (registerFirstFilter)执行耗时: 18ms
+[2023-06-23 17:27:53.078] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$27722826)method: (registerSecondFilter)执行耗时: 1ms
+[2023-06-23 17:27:53.882] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 17:27:54.418] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 17:27:54.425] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 17:27:54.432] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 17:27:54.434] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 17:27:54.435] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 17:27:54.435] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 17:27:54.583] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 17:27:58.397] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 17:27:59.560] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 17:27:59.560] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$16bbc228 (priority:10000)
+[2023-06-23 17:27:59.561] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$16bbc228 (priority:10000)
+[2023-06-23 17:28:01.035] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$16bbc228 (priority:10000)
+[2023-06-23 17:28:01.184] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 17:28:01.187] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 17:28:01.189] [Thread-4] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 17:28:01.189] [Thread-3] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:28:01.189] [Thread-2] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 17:28:02.254] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 17:28:02.255] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 17:28:02.528] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$45e8277e)method: (mybatisPlusInterceptor)执行耗时: 35ms
+[2023-06-23 17:28:08.704] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4abfa2ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c680fe1, org.springframework.security.web.header.HeaderWriterFilter@25dc2c0, org.springframework.security.web.csrf.CsrfFilter@71135794, org.springframework.security.web.authentication.logout.LogoutFilter@7d7c05fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a2fd94c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@575fe6da, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38c1b1a7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55d87b73, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cd6f08b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@309e7215, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73230721, org.springframework.security.web.session.SessionManagementFilter@263e512e, org.springframework.security.web.access.ExceptionTranslationFilter@391e2a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13f7c165]
+[2023-06-23 17:28:08.762] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 17:28:10.628] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 17:28:10.634] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 29.336 seconds (JVM running for 30.517)
+[2023-06-23 17:29:09.741] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 17:29:09.742] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 17:29:09.757] [https-jsse-nio-0.0.0.0-8083-exec-8] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+[2023-06-23 17:29:38.159] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:29:38.159] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:29:38.160] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 17:29:38.210] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.controller.LoginController)method: (test)执行耗时: 4ms
+[2023-06-23 17:29:38.289] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.filter.FirstFilter - recieve request: [  ]
+[2023-06-23 17:29:38.289] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.filter.FirstFilter - filter doFilter successfully
+[2023-06-23 17:29:38.289] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.filter.SecondFilter - recieve request value: begin
+[2023-06-23 23:14:34.701] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 7236 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 23:14:34.714] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 23:14:41.086] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bae44d05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.472] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$5392153f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.485] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.494] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2eb0cefe' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.499] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$e025e32d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.523] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$9dbbd007] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.527] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.529] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.625] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.649] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$2472bdd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:41.688] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:14:42.709] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 23:14:42.785] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 23:14:42.785] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 23:14:43.266] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 23:14:43.266] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8261 ms
+[2023-06-23 23:14:43.359] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$41d870c9)method: (registerFirstFilter)执行耗时: 14ms
+[2023-06-23 23:14:43.374] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$41d870c9)method: (registerSecondFilter)执行耗时: 1ms
+[2023-06-23 23:14:44.052] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$604e7021)method: (mybatisPlusInterceptor)执行耗时: 26ms
+[2023-06-23 23:14:44.325] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:14:45.678] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:14:45.686] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:14:45.694] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:14:45.696] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:14:45.696] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:14:45.697] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:14:49.422] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:14:55.398] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:14:57.189] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:14:57.189] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$31220acb (priority:10000)
+[2023-06-23 23:14:57.190] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$31220acb (priority:10000)
+[2023-06-23 23:14:58.243] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$31220acb (priority:10000)
+[2023-06-23 23:14:59.441] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:14:59.443] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:14:59.444] [Thread-51] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:14:59.444] [Thread-52] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:14:59.445] [Thread-53] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:15:00.662] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 23:15:00.663] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 23:15:04.140] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62f305bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@74797b90, org.springframework.security.web.header.HeaderWriterFilter@3b3f62d7, org.springframework.security.web.csrf.CsrfFilter@7c37ac3c, org.springframework.security.web.authentication.logout.LogoutFilter@42d7e8bc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58e7f930, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1d3e5a05, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@729c8def, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@89465d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@720c0996, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66d69cd2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41c88e00, org.springframework.security.web.session.SessionManagementFilter@53da2aec, org.springframework.security.web.access.ExceptionTranslationFilter@6369d01c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@593354fa]
+[2023-06-23 23:15:04.189] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:15:07.604] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 23:15:07.615] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 35.641 seconds (JVM running for 41.972)
+[2023-06-23 23:15:12.180] [RMI TCP Connection(5)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 23:15:12.181] [RMI TCP Connection(5)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 23:15:12.213] [RMI TCP Connection(5)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+[2023-06-23 23:16:32.159] [https-jsse-nio-0.0.0.0-8083-exec-10] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 11ms
+[2023-06-23 23:16:32.161] [https-jsse-nio-0.0.0.0-8083-exec-10] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 1ms
+[2023-06-23 23:16:32.163] [https-jsse-nio-0.0.0.0-8083-exec-10] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.service.UserServiceImpl)method: (loadUserByUsername)执行耗时: 18ms
+[2023-06-23 23:16:42.102] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 2ms
+[2023-06-23 23:16:42.105] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 2ms
+[2023-06-23 23:16:42.106] [https-jsse-nio-0.0.0.0-8083-exec-5] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.service.UserServiceImpl)method: (loadUserByUsername)执行耗时: 6ms
+[2023-06-23 23:26:20.464] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 6388 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 23:26:20.476] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 23:26:26.670] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9e1c349] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.140] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$728f8b83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.154] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.165] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5fb3111a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.170] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$ff235971] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.197] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$bcb9464b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.201] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.204] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.317] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.344] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4370341a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:27.388] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:26:28.423] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 23:26:28.504] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 23:26:28.504] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 23:26:29.021] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 23:26:29.022] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8288 ms
+[2023-06-23 23:26:29.127] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$60d5e70d)method: (registerFirstFilter)执行耗时: 14ms
+[2023-06-23 23:26:29.142] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$60d5e70d)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 23:26:29.824] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$7f4be665)method: (mybatisPlusInterceptor)执行耗时: 25ms
+[2023-06-23 23:26:30.089] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:26:30.532] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:26:30.543] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:26:30.550] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:26:30.552] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:26:30.553] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:26:30.553] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:26:34.246] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:26:40.856] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:26:42.678] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:26:42.678] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$501f810f (priority:10000)
+[2023-06-23 23:26:42.679] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$501f810f (priority:10000)
+[2023-06-23 23:26:43.880] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$501f810f (priority:10000)
+[2023-06-23 23:26:44.198] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:26:44.200] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:26:44.201] [Thread-50] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:26:44.201] [Thread-52] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:26:44.202] [Thread-51] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:26:45.193] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 23:26:45.194] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 23:26:48.410] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67d8613, org.springframework.security.web.context.SecurityContextPersistenceFilter@54a033b8, org.springframework.security.web.header.HeaderWriterFilter@2ae08750, org.springframework.security.web.csrf.CsrfFilter@4ef28dc4, org.springframework.security.web.authentication.logout.LogoutFilter@720c0996, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5b028f58, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b3f62d7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5667dd90, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@9f52eb7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46a0ef6f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54e680fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@261f5a45, org.springframework.security.web.session.SessionManagementFilter@58679ff, org.springframework.security.web.access.ExceptionTranslationFilter@62159fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69ed96e1]
+[2023-06-23 23:26:48.447] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:26:51.248] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 23:26:51.258] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 33.735 seconds (JVM running for 38.975)
+[2023-06-23 23:26:51.792] [RMI TCP Connection(1)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 23:26:51.793] [RMI TCP Connection(1)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 23:26:51.827] [RMI TCP Connection(1)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 33 ms
+[2023-06-23 23:27:05.929] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 10ms
+[2023-06-23 23:27:05.931] [https-jsse-nio-0.0.0.0-8083-exec-2] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 1ms
+[2023-06-23 23:27:52.821] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 17988 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 23:27:52.907] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 23:27:59.353] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0f683ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.814] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$69a44be7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.828] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.839] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@693f2c89' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.844] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$f63819d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.872] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$b3ce06af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.876] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.879] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:27:59.989] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:28:00.017] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3a84f47e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:28:00.068] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:28:01.144] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 23:28:01.222] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 23:28:01.223] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 23:28:01.753] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 23:28:01.753] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8651 ms
+[2023-06-23 23:28:01.864] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$57eaa771)method: (registerFirstFilter)执行耗时: 16ms
+[2023-06-23 23:28:01.882] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$57eaa771)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 23:28:02.891] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$7660a6c9)method: (mybatisPlusInterceptor)执行耗时: 34ms
+[2023-06-23 23:28:03.255] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:28:03.772] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:28:03.785] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:28:03.794] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:28:03.797] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:28:03.798] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:28:03.799] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:28:08.385] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:28:15.286] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:28:19.200] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:28:19.201] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$47344173 (priority:10000)
+[2023-06-23 23:28:19.202] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$47344173 (priority:10000)
+[2023-06-23 23:28:21.454] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$47344173 (priority:10000)
+[2023-06-23 23:28:21.747] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:28:21.750] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:28:21.752] [Thread-43] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:28:21.753] [Thread-45] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:28:21.753] [Thread-44] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:28:23.356] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 23:28:23.358] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 23:28:29.455] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@409df37d, org.springframework.security.web.context.SecurityContextPersistenceFilter@73b034ca, org.springframework.security.web.header.HeaderWriterFilter@30d3f583, org.springframework.security.web.csrf.CsrfFilter@2719139f, org.springframework.security.web.authentication.logout.LogoutFilter@66d766b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@495a9305, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@462deb2b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ab1c7a9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a0a0f12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@104e6540, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5eaa4ed0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e818345, org.springframework.security.web.session.SessionManagementFilter@3344c1d7, org.springframework.security.web.access.ExceptionTranslationFilter@2688b2be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2eea0775]
+[2023-06-23 23:28:29.523] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:28:32.268] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 23:28:32.280] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 42.252 seconds (JVM running for 50.407)
+[2023-06-23 23:28:35.148] [RMI TCP Connection(8)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 23:28:35.149] [RMI TCP Connection(8)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 23:28:35.190] [RMI TCP Connection(8)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 40 ms
+[2023-06-23 23:29:09.419] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 84ms
+[2023-06-23 23:29:33.971] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 7ms
+[2023-06-23 23:29:54.022] [https-jsse-nio-0.0.0.0-8083-exec-6] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 10ms
+[2023-06-23 23:31:16.878] [https-jsse-nio-0.0.0.0-8083-exec-6] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 5ms
+[2023-06-23 23:31:17.155] [Thread-58] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:31:17.156] [activiti-acquire-timer-jobs] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} stopped async job due acquisition
+[2023-06-23 23:31:17.156] [activiti-reset-expired-jobs] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} stopped resetting expired jobs
+[2023-06-23 23:31:17.156] [activiti-acquire-async-jobs] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} stopped async job due acquisition
+[2023-06-23 23:31:17.159] [Thread-58] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:31:17.160] [Thread-58] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+[2023-06-23 23:31:17.160] [Thread-58] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown initiated...
+[2023-06-23 23:31:17.173] [Thread-58] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown completed.
+[2023-06-23 23:31:17.174] [Thread-58] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+[2023-06-23 23:31:17.184] [Thread-58] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+[2023-06-23 23:31:17.184] [Thread-58] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+[2023-06-23 23:33:29.595] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 10132 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 23:33:29.607] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 23:33:36.044] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2196b14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.424] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8ac7334e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.437] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.447] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3820cfe' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.452] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$175b013c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.477] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$d4f0ee16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.481] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.483] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.582] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.605] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$5ba7dbe5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:36.644] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:33:37.590] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 23:33:37.659] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 23:33:37.659] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 23:33:38.237] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 23:33:38.238] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8377 ms
+[2023-06-23 23:33:38.339] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$790d8ed8)method: (registerFirstFilter)执行耗时: 13ms
+[2023-06-23 23:33:38.357] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$790d8ed8)method: (registerSecondFilter)执行耗时: 1ms
+[2023-06-23 23:33:39.009] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$97838e30)method: (mybatisPlusInterceptor)执行耗时: 23ms
+[2023-06-23 23:33:39.258] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:33:39.577] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:33:39.585] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:33:39.609] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:33:39.611] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:33:39.612] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:33:39.612] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:33:43.282] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:33:50.304] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:33:52.098] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:33:52.099] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$685728da (priority:10000)
+[2023-06-23 23:33:52.099] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$685728da (priority:10000)
+[2023-06-23 23:33:53.136] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$685728da (priority:10000)
+[2023-06-23 23:33:53.356] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:33:53.359] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:33:53.361] [Thread-50] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:33:53.361] [Thread-51] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:33:53.361] [Thread-52] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:33:54.424] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 23:33:54.426] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 23:33:57.328] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4407fea2, org.springframework.security.web.context.SecurityContextPersistenceFilter@11a7840f, org.springframework.security.web.header.HeaderWriterFilter@7a85dc58, org.springframework.security.web.csrf.CsrfFilter@63c6c5e5, org.springframework.security.web.authentication.logout.LogoutFilter@69ed96e1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@354e2bff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b63365c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@64e3bc2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39296cef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f5c757c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c0fe6c5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54ed249f, org.springframework.security.web.session.SessionManagementFilter@7f9e6167, org.springframework.security.web.access.ExceptionTranslationFilter@460aa24e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62f305bc]
+[2023-06-23 23:33:57.364] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:33:59.652] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 23:33:59.661] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 32.919 seconds (JVM running for 38.382)
+[2023-06-23 23:34:03.709] [RMI TCP Connection(3)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 23:34:03.709] [RMI TCP Connection(3)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 23:34:03.737] [RMI TCP Connection(3)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+[2023-06-23 23:34:16.692] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 14ms
+[2023-06-23 23:34:16.694] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 1ms
+[2023-06-23 23:36:47.815] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 17680 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 23:36:47.830] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 23:36:54.017] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4dafa679] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.441] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e65d6eb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.456] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.468] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@11ad095c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.476] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$72f13ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.516] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$3087297b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.521] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.524] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.647] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.682] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b73e174a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:54.742] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:36:56.053] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 23:36:56.176] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 23:36:56.177] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 23:36:56.923] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 23:36:56.923] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8914 ms
+[2023-06-23 23:36:57.075] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$d4a3ca3d)method: (registerFirstFilter)执行耗时: 23ms
+[2023-06-23 23:36:57.103] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$d4a3ca3d)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 23:36:58.265] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$f319c995)method: (mybatisPlusInterceptor)执行耗时: 42ms
+[2023-06-23 23:36:58.873] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:36:59.581] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:36:59.603] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:36:59.615] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:36:59.619] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:36:59.620] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:36:59.620] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:37:07.799] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:37:16.543] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:37:20.028] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:37:20.029] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$c3ed643f (priority:10000)
+[2023-06-23 23:37:20.029] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$c3ed643f (priority:10000)
+[2023-06-23 23:37:21.514] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$c3ed643f (priority:10000)
+[2023-06-23 23:37:21.847] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:37:21.850] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:37:21.852] [Thread-38] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:37:21.852] [Thread-37] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:37:21.852] [Thread-39] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:37:23.181] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 23:37:23.182] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 23:37:28.006] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40e90634, org.springframework.security.web.context.SecurityContextPersistenceFilter@106c3e0a, org.springframework.security.web.header.HeaderWriterFilter@1b641c97, org.springframework.security.web.csrf.CsrfFilter@1ddc5857, org.springframework.security.web.authentication.logout.LogoutFilter@30d3f583, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@655d5285, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1cd853ee, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78b29e00, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@36f1bd7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e778abb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e594c46, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c438795, org.springframework.security.web.session.SessionManagementFilter@7f065f9e, org.springframework.security.web.access.ExceptionTranslationFilter@5dfc7b3f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@259f0fdb]
+[2023-06-23 23:37:28.071] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:37:30.721] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 23:37:30.734] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 45.79 seconds (JVM running for 51.699)
+[2023-06-23 23:37:36.814] [RMI TCP Connection(12)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 23:37:36.815] [RMI TCP Connection(12)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 23:37:36.874] [RMI TCP Connection(12)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 58 ms
+[2023-06-23 23:38:32.725] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 120ms
+[2023-06-23 23:38:55.553] [https-jsse-nio-0.0.0.0-8083-exec-1] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 2ms
+[2023-06-23 23:38:55.669] [Thread-50] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:38:55.670] [activiti-reset-expired-jobs] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} stopped resetting expired jobs
+[2023-06-23 23:38:55.670] [activiti-acquire-async-jobs] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} stopped async job due acquisition
+[2023-06-23 23:38:55.670] [activiti-acquire-timer-jobs] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} stopped async job due acquisition
+[2023-06-23 23:38:55.672] [Thread-50] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:38:55.673] [Thread-50] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+[2023-06-23 23:38:55.674] [Thread-50] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown initiated...
+[2023-06-23 23:38:55.687] [Thread-50] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown completed.
+[2023-06-23 23:38:55.687] [Thread-50] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+[2023-06-23 23:38:55.694] [Thread-50] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+[2023-06-23 23:38:55.694] [Thread-50] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+[2023-06-23 23:38:57.497] [Thread-50] [INFO ] com.example.filter.SecondFilter - filter destroyed
+[2023-06-23 23:38:57.498] [Thread-50] [INFO ] com.example.filter.FirstFilter - filter destroyed
+[2023-06-23 23:40:53.474] [main] [INFO ] com.example.LibraryStarter - Starting LibraryStarter on LAPTOP-NDSFIK6T with PID 18100 (C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter\target\classes started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library)
+[2023-06-23 23:40:53.572] [main] [INFO ] com.example.LibraryStarter - No active profile set, falling back to default profiles: default
+[2023-06-23 23:41:00.219] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9edd5bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.758] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$829b9df5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.773] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.785] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@425b5fe2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.791] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$f2f6be3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.821] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$ccc558bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.827] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.830] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:00.958] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:01.001] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$537c468c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:01.056] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:41:02.663] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+[2023-06-23 23:41:02.784] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-23 23:41:02.785] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2023-06-23 23:41:03.516] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-23 23:41:03.516] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9730 ms
+[2023-06-23 23:41:03.649] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$70e1f97f)method: (registerFirstFilter)执行耗时: 18ms
+[2023-06-23 23:41:03.670] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$70e1f97f)method: (registerSecondFilter)执行耗时: 0ms
+[2023-06-23 23:41:05.049] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$8f57f8d7)method: (mybatisPlusInterceptor)执行耗时: 51ms
+[2023-06-23 23:41:05.512] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:41:06.131] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:41:06.146] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:41:06.159] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:41:06.163] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:41:06.164] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:41:06.165] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:41:10.938] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:41:17.556] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:41:19.362] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:41:19.362] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$602b9381 (priority:10000)
+[2023-06-23 23:41:19.363] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$602b9381 (priority:10000)
+[2023-06-23 23:41:20.657] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$602b9381 (priority:10000)
+[2023-06-23 23:41:20.867] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:41:20.870] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:41:20.872] [Thread-57] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:41:20.873] [Thread-59] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:41:20.873] [Thread-58] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:41:22.141] [main] [INFO ] com.example.filter.SecondFilter - filter secondFilter init success
+[2023-06-23 23:41:22.143] [main] [INFO ] com.example.filter.FirstFilter - filter firstFilter init success
+[2023-06-23 23:41:26.903] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f08e6d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@66c88fce, org.springframework.security.web.header.HeaderWriterFilter@147203c2, org.springframework.security.web.csrf.CsrfFilter@79c4454, org.springframework.security.web.authentication.logout.LogoutFilter@5a110e7d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52e5ad71, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7308d133, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67c1fc9b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@696a6506, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ccfce5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4557723a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50f65fe0, org.springframework.security.web.session.SessionManagementFilter@11df0bc7, org.springframework.security.web.access.ExceptionTranslationFilter@4349389d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2862bac6]
+[2023-06-23 23:41:26.956] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:41:29.416] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+[2023-06-23 23:41:29.426] [main] [INFO ] com.example.LibraryStarter - Started LibraryStarter in 39.936 seconds (JVM running for 49.008)
+[2023-06-23 23:41:31.197] [RMI TCP Connection(1)-192.168.32.1] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-23 23:41:31.198] [RMI TCP Connection(1)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-23 23:41:31.229] [RMI TCP Connection(1)-192.168.32.1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 31 ms
+[2023-06-23 23:42:02.921] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getUserInfoByUsername)执行耗时: 75ms
+[2023-06-23 23:43:34.606] [https-jsse-nio-0.0.0.0-8083-exec-3] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy100)method: (getRoleInfoByUsername)执行耗时: 5ms
+[2023-06-23 23:43:34.742] [Thread-77] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:43:34.743] [activiti-reset-expired-jobs] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} stopped resetting expired jobs
+[2023-06-23 23:43:34.743] [activiti-acquire-async-jobs] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} stopped async job due acquisition
+[2023-06-23 23:43:34.743] [activiti-acquire-timer-jobs] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} stopped async job due acquisition
+[2023-06-23 23:43:34.745] [Thread-77] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:43:34.746] [Thread-77] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+[2023-06-23 23:43:34.747] [Thread-77] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown initiated...
+[2023-06-23 23:43:34.762] [Thread-77] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown completed.
+[2023-06-23 23:43:34.762] [Thread-77] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+[2023-06-23 23:43:34.769] [Thread-77] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+[2023-06-23 23:43:34.770] [Thread-77] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+[2023-06-23 23:43:36.657] [Thread-77] [INFO ] com.example.filter.SecondFilter - filter destroyed
+[2023-06-23 23:43:36.658] [Thread-77] [INFO ] com.example.filter.FirstFilter - filter destroyed
+[2023-06-23 23:45:57.340] [main] [INFO ] libtest.LibraryTest - Starting LibraryTest on LAPTOP-NDSFIK6T with PID 16644 (started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter)
+[2023-06-23 23:45:57.344] [main] [INFO ] libtest.LibraryTest - No active profile set, falling back to default profiles: default
+[2023-06-23 23:46:06.398] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2cbb89e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.444] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7b7980d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.477] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.487] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@baa9ce4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.522] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$80d4ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.575] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$c5a33ba0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.603] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.626] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.779] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.848] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4c5a296f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:07.948] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:46:09.062] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$8835dbba)method: (mybatisPlusInterceptor)执行耗时: 58ms
+[2023-06-23 23:46:09.799] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:46:10.461] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:46:10.472] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:46:10.482] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:46:10.484] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:46:10.484] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:46:10.485] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+[2023-06-23 23:46:15.141] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:46:23.182] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:46:25.546] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:46:25.547] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$59097664 (priority:10000)
+[2023-06-23 23:46:25.548] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$59097664 (priority:10000)
+[2023-06-23 23:46:27.899] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$59097664 (priority:10000)
+[2023-06-23 23:46:28.218] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:46:28.224] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:46:28.228] [Thread-4] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:46:28.227] [Thread-2] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:46:28.228] [Thread-3] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:46:32.876] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$69bfdc62)method: (registerFirstFilter)执行耗时: 16ms
+[2023-06-23 23:46:32.951] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$69bfdc62)method: (registerSecondFilter)执行耗时: 1ms
+[2023-06-23 23:46:48.389] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@468646ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b03c35c, org.springframework.security.web.header.HeaderWriterFilter@4965454c, org.springframework.security.web.csrf.CsrfFilter@6aa18912, org.springframework.security.web.authentication.logout.LogoutFilter@44e7c06b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@752ffce3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52d434c1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4056cdb2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@69fe8c75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@251e2f4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37b5a51c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20462820, org.springframework.security.web.session.SessionManagementFilter@5644f664, org.springframework.security.web.access.ExceptionTranslationFilter@7c6fc278, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a010eec]
+[2023-06-23 23:46:48.958] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:46:50.114] [main] [INFO ] libtest.LibraryTest - Started LibraryTest in 56.22 seconds (JVM running for 63.667)
+[2023-06-23 23:46:52.920] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy104)method: (getUserInfoByUsername)执行耗时: 66ms
+[2023-06-23 23:46:52.978] [Thread-5] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:46:52.980] [activiti-acquire-timer-jobs] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} stopped async job due acquisition
+[2023-06-23 23:46:52.980] [activiti-reset-expired-jobs] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} stopped resetting expired jobs
+[2023-06-23 23:46:52.980] [activiti-acquire-async-jobs] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} stopped async job due acquisition
+[2023-06-23 23:46:52.987] [Thread-5] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:46:52.989] [Thread-5] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+[2023-06-23 23:46:52.990] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown initiated...
+[2023-06-23 23:46:53.035] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown completed.
+[2023-06-23 23:46:53.036] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+[2023-06-23 23:46:53.048] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+[2023-06-23 23:46:53.049] [Thread-5] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+[2023-06-23 23:51:52.669] [main] [INFO ] libtest.LibraryTest - Starting LibraryTest on LAPTOP-NDSFIK6T with PID 17440 (started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter)
+[2023-06-23 23:51:52.674] [main] [INFO ] libtest.LibraryTest - No active profile set, falling back to default profiles: default
+[2023-06-23 23:52:03.187] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75091139] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.163] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$db6d973] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.195] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.203] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2755617b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.241] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$9a4aa761] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.293] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$57e0943b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.321] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.342] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.487] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.550] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$de97820a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:04.665] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:52:05.415] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$1a733455)method: (mybatisPlusInterceptor)执行耗时: 46ms
+[2023-06-23 23:52:05.989] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti - Starting...
+[2023-06-23 23:52:06.792] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti - Start completed.
+[2023-06-23 23:52:06.806] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:52:06.821] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:52:06.834] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:52:06.847] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:52:06.850] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:52:06.850] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti] success
+[2023-06-23 23:52:06.850] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:52:06.850] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+[2023-06-23 23:52:11.864] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:52:21.494] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:52:23.703] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:52:23.704] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$eb46ceff (priority:10000)
+[2023-06-23 23:52:23.705] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$eb46ceff (priority:10000)
+[2023-06-23 23:52:26.340] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$eb46ceff (priority:10000)
+[2023-06-23 23:52:26.850] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:52:26.850] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+[2023-06-23 23:52:26.851] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown initiated...
+[2023-06-23 23:52:26.891] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown completed.
+[2023-06-23 23:52:26.893] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti - Shutdown initiated...
+[2023-06-23 23:52:26.908] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti - Shutdown completed.
+[2023-06-23 23:52:26.909] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+[2023-06-23 23:52:26.918] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+[2023-06-23 23:52:26.919] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+[2023-06-23 23:52:26.957] [main] [INFO ] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-06-23 23:55:54.466] [main] [INFO ] libtest.LibraryTest - Starting LibraryTest on LAPTOP-NDSFIK6T with PID 15524 (started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter)
+[2023-06-23 23:55:54.472] [main] [INFO ] libtest.LibraryTest - No active profile set, falling back to default profiles: default
+[2023-06-23 23:56:24.203] [main] [INFO ] libtest.LibraryTest - Starting LibraryTest on LAPTOP-NDSFIK6T with PID 10464 (started by Lenovo in C:\Users\Lenovo\eclipse-workspace\idea-library\library-starter)
+[2023-06-23 23:56:24.207] [main] [INFO ] libtest.LibraryTest - No active profile set, falling back to default profiles: default
+[2023-06-23 23:56:32.747] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf31cfed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.716] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$57df9827] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.753] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.764] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1b0e031b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.795] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$e4736615] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.853] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$a20952ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.880] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:33.901] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:34.051] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:34.122] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$28c040be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:34.220] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-23 23:56:35.052] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.PaginationConfig$$EnhancerBySpringCGLIB$$649bf309)method: (mybatisPlusInterceptor)执行耗时: 56ms
+[2023-06-23 23:56:35.653] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Starting...
+[2023-06-23 23:56:36.255] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Start completed.
+[2023-06-23 23:56:36.266] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Starting...
+[2023-06-23 23:56:36.276] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Start completed.
+[2023-06-23 23:56:36.286] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - library-database - Starting...
+[2023-06-23 23:56:36.311] [main] [INFO ] com.zaxxer.hikari.HikariDataSource - library-database - Start completed.
+[2023-06-23 23:56:36.312] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [activiti_source] success
+[2023-06-23 23:56:36.313] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [library-database] success
+[2023-06-23 23:56:36.313] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+[2023-06-23 23:56:36.313] [main] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+[2023-06-23 23:56:41.002] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:56:49.656] [main] [INFO ] o.a.spring.boot.ProcessDefinitionResourceFinder - The following process definition files will be deployed: [leave1.bpmn20.xml]
+[2023-06-23 23:56:51.847] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Found 1 Process Engine Configurators in total:
+[2023-06-23 23:56:51.848] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$356f8db3 (priority:10000)
+[2023-06-23 23:56:51.849] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing beforeInit() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$356f8db3 (priority:10000)
+[2023-06-23 23:56:53.696] [main] [INFO ] o.a.engine.impl.cfg.ProcessEngineConfigurationImpl - Executing configure() of class org.activiti.spring.process.autoconfigure.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$356f8db3 (priority:10000)
+[2023-06-23 23:56:53.993] [main] [INFO ] org.activiti.engine.impl.ProcessEngineImpl - ProcessEngine default created
+[2023-06-23 23:56:53.997] [main] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:56:53.999] [Thread-2] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:56:54.000] [Thread-4] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} starting to reset expired jobs
+[2023-06-23 23:56:54.000] [Thread-3] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} starting to acquire async jobs due
+[2023-06-23 23:56:57.939] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$4625f3b1)method: (registerFirstFilter)执行耗时: 16ms
+[2023-06-23 23:56:58.001] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.example.config.FilterRegistrator$$EnhancerBySpringCGLIB$$4625f3b1)method: (registerSecondFilter)执行耗时: 1ms
+[2023-06-23 23:57:12.497] [main] [INFO ] o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@623ded82, org.springframework.security.web.context.SecurityContextPersistenceFilter@18301763, org.springframework.security.web.header.HeaderWriterFilter@1a712f12, org.springframework.security.web.csrf.CsrfFilter@7730da00, org.springframework.security.web.authentication.logout.LogoutFilter@4e782401, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e1104f4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4965454c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@180e33b0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2fe2fcc2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e00d737, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c6fc278, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@270be080, org.springframework.security.web.session.SessionManagementFilter@56adbb07, org.springframework.security.web.access.ExceptionTranslationFilter@5c20505f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a78d2aa]
+[2023-06-23 23:57:12.871] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2023-06-23 23:57:13.718] [main] [INFO ] libtest.LibraryTest - Started LibraryTest in 53.207 seconds (JVM running for 58.942)
+[2023-06-23 23:57:15.258] [main] [INFO ] com.example.aspect.TimeComputeAspect - 
+class: (com.sun.proxy.$Proxy105)method: (getUserInfoByUsername)执行耗时: 22ms
+[2023-06-23 23:57:15.284] [Thread-5] [INFO ] o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2023-06-23 23:57:15.285] [activiti-acquire-async-jobs] [INFO ] o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable - {} stopped async job due acquisition
+[2023-06-23 23:57:15.285] [activiti-acquire-timer-jobs] [INFO ] o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable - {} stopped async job due acquisition
+[2023-06-23 23:57:15.285] [activiti-reset-expired-jobs] [INFO ] o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable - {} stopped resetting expired jobs
+[2023-06-23 23:57:15.288] [Thread-5] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-23 23:57:15.289] [Thread-5] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+[2023-06-23 23:57:15.289] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown initiated...
+[2023-06-23 23:57:15.314] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - activiti_source - Shutdown completed.
+[2023-06-23 23:57:15.315] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - library-database - Shutdown initiated...
+[2023-06-23 23:57:15.322] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - library-database - Shutdown completed.
+[2023-06-23 23:57:15.322] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+[2023-06-23 23:57:15.327] [Thread-5] [INFO ] com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+[2023-06-23 23:57:15.327] [Thread-5] [INFO ] c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye

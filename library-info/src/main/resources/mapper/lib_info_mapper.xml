@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.LibInfoMapper">
+    <resultMap id="LibInfoMap" type="com.example.entity.LibInfoEntity">
+        <result column="lib_sno" property="libSno"/>
+        <result column="lib_name" property="libName"/>
+        <result column="lib_type" property="libType"/>
+        <result column="lib_datetime" property="libDatetime"/>
+        <result column="lib_price" property="libPrice"/>
+    </resultMap>
+    <select id="getLibInformations" resultMap="LibInfoMap">
+        select lib_sno, lib_name, lib_type, lib_datetime, lib_price
+        from lib_info
+        <where>
+        <if test="ids != null and ids.size() != 0">
+         lib_sno in (
+            <foreach collection="ids" item="item" index="index" separator=",">
+                #{item}
+            </foreach>)
+        </if>
+        </where>
+    </select>
+
+    <select id="getLibInfoByCondition" resultMap="LibInfoMap">
+        select lib_sno, lib_name, lib_type, lib_datetime, lib_price
+        from lib_info
+        <where>
+            <if test="condition.search != null">
+                lib_name like concat('%', #{condition.search}, '%')
+            </if>
+
+            <if test="condition.snoAsc != null or condition.timeAsc != null or condition.priceAsc != null">
+                <trim prefix="order by" suffixOverrides=",">
+                <if test="condition.snoAsc">
+                    lib_sno,
+                </if>
+
+                <if test="!condition.snoAsc and condition.snoAsc != null">
+                    lib_sno desc,
+                </if>
+
+                <if test="condition.timeAsc">
+                    lib_datetime,
+                </if>
+
+                <if test="!condition.timeAsc and condition.timeAsc != null">
+                    lib_datetime desc,
+                </if>
+
+                <if test="condition.priceAsc">
+                    lib_price,
+                </if>
+
+                <if test="!condition.priceAsc and condition.priceAsc != null">
+                    lib_price desc,
+                </if>
+                </trim>
+            </if>
+        </where>
+    </select>
+</mapper>
