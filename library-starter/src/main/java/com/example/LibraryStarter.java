@@ -13,6 +13,11 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @SpringBootApplication(exclude = {ManagementWebSecurityAutoConfiguration.class})
 @EnableWebSecurity
 public class LibraryStarter {
+
+    /**
+     * main boot Starter
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(LibraryStarter.class, args);
     }
