@@ -37,9 +37,9 @@ public class JwtVerifyFilter extends BaseFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         Cookie[] cookies = request.getCookies();
         for (Cookie cookie : cookies) {
-            log.info("cookie name: "+cookie.getName());
-            log.info("cookie Value: "+cookie.getValue());
-            log.info("cookie domain: "+cookie.getDomain());
+            log.info("cookie name: " + cookie.getName());
+            log.info("cookie Value: " + cookie.getValue());
+            log.info("cookie domain: " + cookie.getDomain());
         }
 
         filterChain.doFilter(servletRequest, servletResponse);
@@ -60,7 +60,7 @@ public class JwtVerifyFilter extends BaseFilter implements Filter {
                 .withExpiresAt(calendar.getTime())
                 .sign(Algorithm.HMAC256("chengfen"));
 
-        System.out.println("jwt will expire at "+format.format(calendar.getTime()));
+        System.out.println("jwt will expire at " + format.format(calendar.getTime()));
         return sign;
     }
 
